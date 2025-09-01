@@ -1,5 +1,6 @@
 //import { useEffect, useState } from "react";
 import styles from "Home.module.css"
+import { NavLink } from "react-router-dom";
 
 function Home() {
     return (
@@ -21,9 +22,9 @@ function Home() {
             </div>
             <div className={styles.projectsContainer}>
                 <h2>Projets</h2>
-                <SectionButton image="" name="Professionnel"/>
-                <SectionButton image="" name="En groupe"/>
-                <SectionButton image="" name="En solo"/>
+                <SectionButton image="" name="Professionnel" to="/pro" alt="vers la section projet professionnel"/>
+                <SectionButton image="" name="En groupe" to="/groupe" alt="vers la section projet en groupe"/>
+                <SectionButton image="" name="En solo" to="/solo" alt="vers la section projet en solo"/>
             </div>
         </>
     );
