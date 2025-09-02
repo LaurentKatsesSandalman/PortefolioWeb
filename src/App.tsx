@@ -1,5 +1,6 @@
 import "./App.css";
-// import NavBar from "./components/NavBar";
+import NavBar from "./components/NavBar/NavBar";
+import Footer from "./components/Footer/Footer";
 import { Outlet } from "react-router";
 //import { CountriesProvider } from "./contexts/CountriesContext";
 

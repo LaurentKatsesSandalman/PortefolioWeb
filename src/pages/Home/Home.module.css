@@ -1,0 +1,32 @@
+.presentationContainer{
+    margin: 0 auto;
+    width:80%;
+    display:flex;
+    gap: 10px;
+}
+
+.pblock{
+    display: block;
+    width: 100%;
+    
+}
+
+.avatar{
+    aspect-ratio: 1/1;
+    width: 100%;
+    border-radius: 25%;
+    display: none;
+    
+}
+
+h1, h2{
+ 
+  text-align: center;  
+}
+
+.projectsContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
