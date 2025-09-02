@@ -2,6 +2,7 @@ export const portefolio = [
     {
         section:"Professionnel",
         toParam:"pro",
+        desc:"Voici la section professionnelle qui est pour l'instant vide",
         projects: [
             {
                 name:"Votre projet",
@@ -18,6 +19,7 @@ export const portefolio = [
     {
         section:"En groupe",
          toParam:"groupe",
+         desc:"Voici tous les projets que j'ai réalisé en groupe à la Wild Code School",
         projects: [
             {
                 name:"Memory",
@@ -54,6 +56,7 @@ export const portefolio = [
     {
         section:"En solo",
          toParam:"solo",
+         desc:"Voici quelques projets que j'ai réalisé en solo, que ce soit en formation ou sur mon temps libre",
         projects: [
             {
                 name:"SoloRush1 : Sandalman",

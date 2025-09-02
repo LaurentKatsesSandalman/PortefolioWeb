@@ -11,7 +11,7 @@ import { Outlet } from "react-router";
 //FUNCTION APP
 function App() {
   return (
-    //<CountriesProvider  >
+    //<Provider  >
     <>
       <NavBar />
       <main>
@@ -19,7 +19,7 @@ function App() {
       </main>
       <Footer />
     </>  
-    //</CountriesProvider>
+    //</Provider>
   );
 
 }
