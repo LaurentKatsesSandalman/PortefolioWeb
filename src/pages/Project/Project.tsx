@@ -35,27 +35,43 @@ function ProjectPage() {
                 {section}
             </Link>
             <div className={styles.main}>
-            <h2>{currentProject.name}</h2>
-            <Link to={currentProject.link}>
-                <img
-                    className={styles.projectImage}
-                    src={currentProject.img}
-                    alt={currentProject.alt}
-                />
-            </Link>
-            <div className={styles.h3container}>
-                <h3>Technos</h3>
-                <p>{currentProject.technos}</p>
-            </div>
-            <div className={styles.h3container}>
-            <h3>Durée</h3>
-            <p>{currentProject.duration}</p></div>
-             <div className={styles.h3container}>
-            <h3>à propos</h3>
-            {currentProject.desc.map((item, index) => (
-                <p key={index}>{item}</p>
-            ))}
-            </div>
+                <h2>{currentProject.name}</h2>
+                {currentProject.link === "" ? (
+                    <div>
+                        <img
+                            className={styles.projectImage}
+                            src={currentProject.img}
+                            alt={currentProject.alt}
+                        />
+                    </div>
+                ) : (
+                    <a
+                        href={currentProject.link}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                    >
+                        <img
+                            className={styles.projectImage}
+                            src={currentProject.img}
+                            alt={currentProject.alt}
+                        />
+                    </a>
+                )}
+
+                <div className={styles.h3container}>
+                    <h3>Technos</h3>
+                    <p>{currentProject.technos}</p>
+                </div>
+                <div className={styles.h3container}>
+                    <h3>Durée</h3>
+                    <p>{currentProject.duration}</p>
+                </div>
+                <div className={styles.h3container}>
+                    <h3>à propos</h3>
+                    {currentProject.desc.map((item, index) => (
+                        <p key={index}>{item}</p>
+                    ))}
+                </div>
             </div>
         </>
     );

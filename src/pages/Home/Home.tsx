@@ -1,6 +1,7 @@
 //import { useEffect, useState } from "react";
 import styles from "./Home.module.css";
 import SectionButton from "../../components/SectionButton/SectionButton";
+import photo from "../../assets/img/temp_profil_3.png"
 
 function HomePage() {
     return (
@@ -9,13 +10,13 @@ function HomePage() {
                 <div>
                     <img
                         className={styles.avatar}
-                        src="src/assets/img/temp_profil_3.png"
+                        src={photo}
                         alt="Photo de Laurent Sandalman"
                     />
                 </div>
                 <div className={styles.presentationText}>
-                    <h1>Développeur Web</h1>
-                    <h2>Full-stack</h2>
+                    
+                    <h2>Développeur Web Full-stack</h2>
                     <p className={styles.pblock}>Bonjour !</p>
                     <p className={styles.pblock}>
                         Vous êtes sur le portefolio de Laurent Durup, aka

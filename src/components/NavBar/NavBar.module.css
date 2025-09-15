@@ -1,0 +1,13 @@
+.navbar{
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo{
+    aspect-ratio: 1/1;
+    height: 2rem;
+}
+
+h1{
+    margin: 0 auto
+}

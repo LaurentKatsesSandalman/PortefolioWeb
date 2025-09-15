@@ -1,9 +1,13 @@
+import Sandals from "../../assets/icons/sandale_icon.ico"
+import styles from "./NavBar.module.css"
+
 function NavBar(){
 
     return(
-        <>
-        <p>NavBar</p>
-        </>
+        <div className={styles.navbar}>
+        <img className={styles.logo} src={Sandals}/>
+        <h1>Laurent Sandalman</h1>
+        </div>
     )
 }
 
