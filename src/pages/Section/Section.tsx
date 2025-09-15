@@ -2,9 +2,9 @@ import { useParams } from "react-router-dom";
 import { Link } from "react-router-dom";
 import { useLocation } from "react-router";
 import { portefolio } from "../../data/projects";
-import type { Section } from "../../interfaces/allInterfaces";
 import ProjectButton from "../../components/ProjectButton/ProjectButton";
 import styles from "./Section.module.css"
+import arrowIcon from "../../assets/icons/arrow.png";
 
 function SectionPage(){
     const{section}=useParams()
@@ -22,17 +22,20 @@ function SectionPage(){
 
     return(
         <>
-        <Link  to={initialPage}><img  className={styles.arrow} alt="Arrow back pictogram" src="src/assets/img/arrow.png" />Accueil</Link>
+        <Link  to={initialPage} className={styles.arrow}><img  className={styles.arrowimg} alt="Arrow back pictogram" src={arrowIcon} />Accueil</Link>
+        <div className={styles.main}>
         <h2>{currentSection.section}</h2>
-        <p>{currentSection.desc}</p>
+        <p className={styles.desc}>{currentSection.desc}</p>
         {currentSection.projects.map((project)=>(
             <ProjectButton
+            key={project.toParam}
             to={project.toParam}
-            image={project.img}
+            img={project.img}
             name={project.name}
             alt={project.alt}
             />
         ))}
+        </div>
         </>
     )
 

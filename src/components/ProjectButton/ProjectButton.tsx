@@ -1,18 +1,20 @@
 import { Link } from "react-router-dom";
 import styles from "./ProjectButton.module.css"
+import { useParams } from "react-router-dom";
 
 interface ProjectButtonProps {
-    image: string;
+    img: string;
     name: string;
     to: string;
     alt: string
 }
 
-function ProjectButton({image, name, to, alt}:ProjectButtonProps){
+function ProjectButton({img, name, to, alt}:ProjectButtonProps){
+    const{section}=useParams()
 
     return(
-        <Link to={to} className={styles.projectLink}>
-        <img className={styles.projectImage} src={image} alt={alt}/>
+        <Link to={to} className={styles.projectLink} state={{ from: `/${section}` }}>
+        <img className={styles.projectImage} src={img} alt={alt}/>
         <p className={styles.projectName}>{name}</p>
         </Link>
     )

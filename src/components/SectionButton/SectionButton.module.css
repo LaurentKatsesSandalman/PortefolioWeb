@@ -1,6 +1,6 @@
 .sectionImage{
     aspect-ratio:1/1;
-    width: 20%;
+    width: 20vw;
     display: block;
     margin: 0 auto;
     background-color: var(--secondary-color);

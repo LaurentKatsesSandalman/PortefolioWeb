@@ -32,19 +32,19 @@ function HomePage() {
             <div className={styles.projectsContainer}>
                 <h2>Projets</h2>
                 <SectionButton
-                    image="src/assets/img/logo_pro.jpg"
+                    image="src/assets/img/logos/logo_pro.jpg"
                     name="Professionnel"
                     to="/pro"
                     alt="vers la section projet professionnel"
                 />
                 <SectionButton
-                    image="src/assets/img/logo_groupe_wcs.png"
+                    image="src/assets/img/logos/logo_groupe_wcs.png"
                     name="En groupe"
                     to="/groupe"
                     alt="vers la section projet en groupe"
                 />
                 <SectionButton
-                    image="src/assets/img/logo_solo_sandales.png"
+                    image="src/assets/img/logos/logo_solo_sandales.png"
                     name="En solo"
                     to="/solo"
                     alt="vers la section projet en solo"

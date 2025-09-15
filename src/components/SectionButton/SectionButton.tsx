@@ -11,7 +11,7 @@ interface SectionButtonProps {
 function SectionButton({image, name, to, alt}:SectionButtonProps){
 
     return(
-        <Link to={to} className={styles.sectionLink}>
+        <Link to={to} className={styles.sectionLink} state={{ from: "/" }}>
         <img className={styles.sectionImage} src={image} alt={alt}/>
         <p className={styles.sectionName}>{name}</p>
         </Link>
