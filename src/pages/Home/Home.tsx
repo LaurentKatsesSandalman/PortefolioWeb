@@ -19,7 +19,7 @@ function HomePage() {
                     <h2>Développeur Web Full-stack</h2>
                     <p className={styles.pblock}>Bonjour !</p>
                     <p className={styles.pblock}>
-                        Vous êtes sur le portefolio de Laurent Durup, aka
+                        Vous êtes sur le portfolio de Laurent Durup, aka
                         Sandalman. Après plus de 20 ans dans l’univers du jeu
                         vidéo et de l’animation interactive, dont 10+ comme Game
                         Designer Free-To-Play Mobile, me voici à présent “jeune”

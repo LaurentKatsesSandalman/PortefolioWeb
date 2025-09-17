@@ -1,34 +1,35 @@
-.arrowimg{
-    height: calc(var(--size-default)*0.8);
-    font-size: calc(var(--size-default)*1.5) ;
+.arrowimg {
+    height: calc(var(--size-default) * 0.8);
+    font-size: calc(var(--size-default) * 1.5);
 }
 
-.arrow{
-        text-decoration: none;
-    color:var(--secondary-color);
-     font-size: calc(var(--size-default)*1) ;
-     text-transform: uppercase;
+.arrow {
+    text-decoration: none;
+    color: var(--secondary-color);
+    font-size: calc(var(--size-default) * 1);
+    text-transform: uppercase;
 }
 
-.main{
+.main {
     width: 80vw;
-    margin:0 auto;
+    margin: 0 auto;
 }
 
-.projectImage{
-    margin:0 auto;
+.projectImage {
+    margin: 0 auto;
     display: block;
     aspect-ratio: 1/1;
-    width:100%;
+    width: 100%;
     object-fit: contain;
-    background-color: lightyellow;
+    background-color: var(--secondary-color);
+    /*create bg-secondary color and change it for light yellow? */
 }
 
-h3{
+h3 {
     text-transform: uppercase;
-    font-size: calc(var(--size-default)*1.2)
+    font-size: calc(var(--size-default) * 1.2);
 }
 
-.h3container{
+.h3container {
     margin: 1.5rem 0;
 }

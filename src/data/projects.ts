@@ -5,25 +5,25 @@ import projectQuicky from "../assets/img/projects/project_quicky.png";
 import projectFlash from "../assets/img/projects/project_flash.png";
 import projectSolorush1 from "../assets/img/projects/project_solorush1.png";
 import projectMdb from "../assets/img/projects/project_mdb_complete.png";
-import projectPortefolio from "../assets/img/projects/project_portefolio.jpg";
+import projectPortfolio from "../assets/img/projects/project_portfolio.jpg";
 
-export const portefolio = [
+export const portfolio = [
     {
         section: "Professionnel",
         toParam: "pro",
-        desc: "Voici la section professionnelle qui est pour l'instant vide. Je n'ai pas encore de projet professionnel dans mon portefolio, mais je suis en recherche active de stage. Contactez-moi et travaillons ensemble ! (enfin, surtout moi pour vous...)",
+        desc: "Voici la section professionnelle qui est pour l'instant vide. Je n'ai pas encore de projet professionnel dans mon portfolio, mais je suis en recherche active de stage. Contactez-moi et travaillons ensemble ! (enfin, surtout moi pour vous...)",
         projects: [
             {
                 name: "Votre projet",
                 toParam: "yourproject",
                 img: projectYou,
                 alt: "We need you picture",
-                link: "",
+                link: "https://github.com/LaurentKatsesSandalman",
                 technos:
                     "HTML, CSS, JavaScript, TypeScript, ReactJS, ExpressJS, MySQL, NestJS (et plein d'autres d'ici là)",
                 duration: "3 mois à partir de début décembre 2025",
                 desc: [
-                    "Je n'ai pas encore de projet professionnel dans mon portefolio, mais je suis en recherche active de stage.",
+                    "Je n'ai pas encore de projet professionnel dans mon portfolio, mais je suis en recherche active de stage.",
                     "Contactez-moi !",
                 ],
             },
@@ -73,7 +73,7 @@ export const portefolio = [
                 toParam: "quicky",
                 img: projectQuicky,
                 alt: "image du site Quicky",
-                link: "",
+                link: "https://github.com/LaurentKatsesSandalman/Project-3",
                 technos:
                     "HTML, CSS, JavaScript, TypeScript, ReactJS, ExpressJS, MySQL",
                 duration:
@@ -97,7 +97,7 @@ export const portefolio = [
                 toParam: "flash",
                 img: projectFlash,
                 alt: "image du site MémoFlash",
-                link: "",
+                link: "https://github.com/WildCodeSchool/projet_4_cda_flash_card",
                 technos:
                     "HTML, CSS, JavaScript, TypeScript, ReactJS, NestJS, MySQL, MicroORM",
                 duration: "Une quarantaine de jours, de début août à fin novembre 2025",
@@ -120,12 +120,13 @@ export const portefolio = [
                 toParam: "solorush1",
                 img: projectSolorush1,
                 alt: "image du site Qui est Sandalman ?",
-                link: "",
+                link: "https://laurentkatsessandalman.github.io/soloRush1/",
                 technos:
-                    "HTML, CSS, JavaScript, TypeScript, ReactJS, ExpressJS, MySQL, NestJS",
-                duration: "3 mois à partir de début décembre 2025",
+                    "HTML Vanilla, CSS",
+                duration: "Moins d'un jour, début mars 2025",
                 desc: [
-                    "Je n'ai pas encore de projet professionnel dans mon portefolio, mais je suis en recherche active de stage. Contactez-moi et travaillons ensemble ! (enfin, surtout moi pour vous...)",
+                    "Voici mon premier projet, un \"solo rush\" qui consistait à créer seul (maquette figma + html + css) une page internet unique, le tout en moins d'une journée, sans IA.",
+                    " Voici le résultat, d'une qualité éditoriale discutable, mais conforme à la maquette et responsive (2 versions: mobile et desktop)",
                 ],
             },
             {
@@ -133,25 +134,32 @@ export const portefolio = [
                 toParam: "solorush2",
                 img: projectMdb,
                 alt: "image du site RETRO MdB",
-                link: "",
+                link: "https://youtu.be/aJmlgdP5Lq4",
                 technos:
-                    "HTML, CSS, JavaScript, TypeScript, ReactJS, ExpressJS, MySQL, NestJS",
-                duration: "3 mois à partir de début décembre 2025",
+                    "HTML, CSS, JavaScript, TypeScript, ReactJS, ExpressJS, MySQL",
+                duration: "Deux jours, mi juin 2025",
                 desc: [
-                    "Je n'ai pas encore de projet professionnel dans mon portefolio, mais je suis en recherche active de stage. Contactez-moi et travaillons ensemble ! (enfin, surtout moi pour vous...)",
+                    "Le thème du SoloRush2 était les années 80, et la contrainte de créer un site front+back+BDD en deux jours max (Mercredi 9h => Vendredi 9h pour les présentations).",
+                    "J’ai décidé de faire un retro game de type Livre-dont-vous-êtes-le-héros.",
+                    "Le jeu gère via la BDD un système d'évènement mais aussi un inventaire qui conditionnent l'apparition ou non de certains \"boutons\" parmi les solutions.",
+                    "La BDD permet aussi de gérer les combattants et l'impact des évènements sur les points de vie ou de communisme.",
+                    "Pour aller vite, j'ai fait un Front en React et en back j’ai utilisé Express, qui est typiquement fait pour ce genre de situation : développer rapidement un back solide pour une petite appli structurée en Model-View-Controller."
                 ],
             },
             {
-                name: "Portefolio",
-                toParam: "portefolio",
-                img: projectPortefolio,
+                name: "Portfolio",
+                toParam: "portfolio",
+                img: projectPortfolio,
                 alt: "image de la home du site où vous vous trouvez",
                 link: "",
                 technos:
-                    "HTML, CSS, JavaScript, TypeScript, ReactJS, ExpressJS, MySQL, NestJS",
-                duration: "3 mois à partir de début décembre 2025",
+                    "HTML, CSS, JavaScript, ReactJS",
+                duration: "En constante évolution",
                 desc: [
-                    "Je n'ai pas encore de projet professionnel dans mon portefolio, mais je suis en recherche active de stage. Contactez-moi et travaillons ensemble ! (enfin, surtout moi pour vous...)",
+                    "Contrairement à ce que je pensais (Qu'on est bête quand on est jeune !), il n'est pas possible de trouver un stage semble-t-il sans un portfolio.",
+                    "J'ai donc essayé, à côté de la formation, du Projet P4 (MémoFlash), de la recherche de stage, du dossier professionnel requis par l'Etat, ... de réaliser ce site, avec la contrainte que ce soit rapide mais pas trop amateur.",
+                    "J'espère avoir réussi, et qu'il s'enrichira bientôt des projets qu'on voudra bien me confier.",
+                    "Le site est officiellement en TypeScript, mais il n'y a pas eu beaucoup de travail d'Interfaces ou de Types spécifiques, il faut l'avouer.",
                 ],
             },
         ],

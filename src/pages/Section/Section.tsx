@@ -1,7 +1,7 @@
 import { useParams } from "react-router-dom";
 import { Link } from "react-router-dom";
 import { useLocation } from "react-router";
-import { portefolio } from "../../data/projects";
+import { portfolio } from "../../data/projects";
 import ProjectButton from "../../components/ProjectButton/ProjectButton";
 import styles from "./Section.module.css"
 import arrowIcon from "../../assets/icons/arrow.png";
@@ -9,7 +9,7 @@ import arrowIcon from "../../assets/icons/arrow.png";
 function SectionPage(){
     const{section}=useParams()
 
-    const currentSection = portefolio.find((item)=>item.toParam === section)
+    const currentSection = portfolio.find((item)=>item.toParam === section)
 
     const location = useLocation();
     const initialPage = location.state?.from || "/";

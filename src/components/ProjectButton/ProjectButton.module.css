@@ -17,5 +17,6 @@
     width: 30vw;
     border-radius: 25%;
     object-fit: cover;
-    background-color: lightyellow;
+    background-color: var(--secondary-color);
+    /*create bg-secondary color and change it for light yellow? */
 }

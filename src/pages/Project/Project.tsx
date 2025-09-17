@@ -1,7 +1,7 @@
 import { useParams } from "react-router-dom";
 import { Link } from "react-router-dom";
 import { useLocation } from "react-router";
-import { portefolio } from "../../data/projects";
+import { portfolio } from "../../data/projects";
 import styles from "./Project.module.css";
 import arrowIcon from "../../assets/icons/arrow.png";
 
@@ -9,7 +9,7 @@ function ProjectPage() {
     const { section } = useParams();
     const { project } = useParams();
 
-    const currentSection = portefolio.find((item) => item.toParam === section);
+    const currentSection = portfolio.find((item) => item.toParam === section);
     const currentProject = currentSection?.projects.find(
         (item) => item.toParam === project
     );
