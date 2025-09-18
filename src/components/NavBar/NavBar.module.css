@@ -1,15 +1,16 @@
 .navbar{
     display: flex;
     justify-content: space-between;
-    margin: 3px 3px 10px
+    align-items: center;
+    margin: 3px 8px 10px
 }
 
 .logo{
     aspect-ratio: 1/1;
-    height: 2rem;
+    height: 3rem;
     background-color: var(--secondary-color);
     /*create bg-secondary color and change it for light yellow? */
-    border-radius: 50%;
+    border-radius: 30%;
 }
 
 h1{
