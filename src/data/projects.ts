@@ -93,10 +93,10 @@ export const portefolio = [
                 ],
             },
             {
-                name: "MémoFlash",
+                name: "MémoFlip",
                 toParam: "flash",
                 img: projectFlash,
-                alt: "image du site MémoFlash",
+                alt: "image du site MémoFlip",
                 link: "",
                 technos:
                     "HTML, CSS, JavaScript, TypeScript, ReactJS, NestJS, MySQL, MicroORM",
