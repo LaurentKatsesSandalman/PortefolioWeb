@@ -32,7 +32,7 @@ export const portfolio = [
     {
         section: "En groupe",
         toParam: "groupe",
-        desc: "Voici tous les projets que j'ai réalisé en groupe à la Wild Code School, lors de ma formation de Concepteur Développeur d'Applications",
+        desc: "Voici tous les projets que j'ai réalisé en groupe à la Wild Code School, lors de ma formation de Concepteur Développeur d'Applications.",
         projects: [
             {
                 name: "Memory",

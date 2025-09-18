@@ -10,13 +10,18 @@
     color: var(--secondary-color);
 }
 
-
-
 .projectImage{
     aspect-ratio: 1/1;
-    width: 30vw;
+    width: min(30vw, 200px);
     border-radius: 25%;
     object-fit: cover;
-    background-color: var(--secondary-color);
-    /*create bg-secondary color and change it for light yellow? */
+    background-color: var(--background-color);
+}
+
+@media (min-width: 768px) {
+
+.projectLink{
+    margin-bottom:0;
+}
+
 }

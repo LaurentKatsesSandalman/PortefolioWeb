@@ -1,10 +1,10 @@
 .sectionImage{
     aspect-ratio:1/1;
-    width: 20vw;
+    width: min(20vw, 180px);
     display: block;
     margin: 0 auto;
     background-color: var(--secondary-color);
-    /*create bg-secondary color and change it for light yellow? */
+
     border-radius: 50%;
 }
 

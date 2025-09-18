@@ -6,6 +6,8 @@
 	color-scheme: light dark;
 	--primary-color: black; /* background color */
 	--secondary-color: white; /* text color */
+	--background-color: lightyellow;
+	--secondary-bg-color: #252525;
     --font-default: 'Roboto', sans-serif;
     --font-title:'Inter', sans-serif;
 	--size-default: 0.9rem;
@@ -18,7 +20,6 @@
 	-moz-osx-font-smoothing: grayscale;
 	background-color: var(--primary-color);
     color: var(--secondary-color);
-	/*create bg-secondary color and change it for light yellow? */
     font-family: var(--font-default);
 }
 
@@ -41,4 +42,10 @@ h1{
 
 h2{
 	font-size: var(--size-h2);
+}
+
+@media (min-width: 768px) {
+  :root {
+	--size-default: 1rem;
+	}
 }

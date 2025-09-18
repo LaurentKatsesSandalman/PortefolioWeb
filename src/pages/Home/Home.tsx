@@ -16,22 +16,23 @@ function HomePage() {
                 </div>
                 <div className={styles.presentationText}>
                     
-                    <h2>Développeur Web Full-stack</h2>
-                    <p className={styles.pblock}>Bonjour !</p>
+                    <h2 className={styles.h2top}>Développeur Web Full-stack</h2>
                     <p className={styles.pblock}>
                         Vous êtes sur le portfolio de Laurent Durup, aka
                         Sandalman. Après plus de 20 ans dans l’univers du jeu
                         vidéo et de l’animation interactive, dont 10+ comme Game
                         Designer Free-To-Play Mobile, me voici à présent “jeune”
-                        Développeur Web. En recherche de stage, d’emploi, du
+                        Développeur Web.</p>
+                        <p className={styles.pblock}> En recherche de stage, d’emploi, du
                         Graal, du Sens de la Vie, et d’une nouvelle paire de
                         sandales en cuir taille 42, je vous présente ici mes
                         premiers projets.
                     </p>
                 </div>
             </div>
-            <div className={styles.projectsContainer}>
+            
                 <h2>Projets</h2>
+            <div className={styles.projectsContainer}>
                 <SectionButton
                     image="src/assets/img/logos/logo_pro.jpg"
                     name="Professionnel"

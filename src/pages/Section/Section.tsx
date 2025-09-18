@@ -26,6 +26,7 @@ function SectionPage(){
         <div className={styles.main}>
         <h2>{currentSection.section}</h2>
         <p className={styles.desc}>{currentSection.desc}</p>
+        <div className={styles.projectsList}>
         {currentSection.projects.map((project)=>(
             <ProjectButton
             key={project.toParam}
@@ -35,6 +36,7 @@ function SectionPage(){
             alt={project.alt}
             />
         ))}
+        </div>
         </div>
         </>
     )
