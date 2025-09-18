@@ -93,10 +93,10 @@ export const portfolio = [
                 ],
             },
             {
-                name: "MémoFlash",
+                name: "MémoFlip",
                 toParam: "flash",
                 img: projectFlash,
-                alt: "image du site MémoFlash",
+                alt: "image du site MémoFlip",
                 link: "https://github.com/WildCodeSchool/projet_4_cda_flash_card",
                 technos:
                     "HTML, CSS, JavaScript, TypeScript, ReactJS, NestJS, MySQL, MicroORM",
@@ -113,7 +113,7 @@ export const portfolio = [
     {
         section: "En solo",
         toParam: "solo",
-        desc: "Voici quelques projets que j'ai réalisé en solo, que ce soit en formation ou sur mon temps libre",
+        desc: "Voici quelques projets que j'ai réalisé en solo, que ce soit en formation ou sur mon temps libre.",
         projects: [
             {
                 name: "SoloRush1 : Sandalman",
