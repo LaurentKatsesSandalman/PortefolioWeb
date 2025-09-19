@@ -36,19 +36,19 @@ function HomePage() {
                 <SectionButton
                     image="src/assets/img/logos/logo_pro.jpg"
                     name="Professionnel"
-                    to="/pro"
+                    to="portfolio/pro"
                     alt="vers la section projet professionnel"
                 />
                 <SectionButton
                     image="src/assets/img/logos/logo_groupe_wcs.png"
                     name="En groupe"
-                    to="/groupe"
+                    to="portfolio/groupe"
                     alt="vers la section projet en groupe"
                 />
                 <SectionButton
                     image="src/assets/img/logos/logo_solo_sandales.png"
                     name="En solo"
-                    to="/solo"
+                    to="portfolio/solo"
                     alt="vers la section projet en solo"
                 />
             </div>
