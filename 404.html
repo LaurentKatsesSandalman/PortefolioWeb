@@ -1,15 +1,19 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
-    <meta charset="utf-8" />
+    <meta charset="UTF-8" />
     <title>Redirecting...</title>
     <script>
-      // redirige vers index.html et laisse React Router gérer la route
-      const redirect = "/PortefolioWeb/index.html";
-      window.location.replace(redirect);
+      // Redirige toute URL non trouvée vers index.html,
+      // en préservant le chemin pour React Router
+      const redirectTo = "/PortefolioWeb/";
+      const pathname = window.location.pathname;
+      const search = window.location.search;
+      const hash = window.location.hash;
+      window.location.replace(redirectTo + "#" + pathname + search + hash);
     </script>
   </head>
   <body>
-    <p>Redirecting...</p>
+    <h1>Redirecting...</h1>
   </body>
 </html>
