@@ -13,7 +13,7 @@ function ProjectButton({img, name, to, alt}:ProjectButtonProps){
     const{section}=useParams()
 
     return(
-        <Link to={to} className={styles.projectLink} state={{ from: `/${section}` }}>
+        <Link to={to} className={styles.projectLink} state={{ from: `/portfolio/${section}` }}>
         <img className={styles.projectImage} src={img} alt={alt}/>
         <p className={styles.projectName}>{name}</p>
         </Link>

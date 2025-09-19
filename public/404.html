@@ -1,14 +1,19 @@
-<!-- public/404.html -->
 <!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta http-equiv="refresh" content="0; URL=/PortefolioWeb/" />
-    <script>
-      // fallback pour React Router
-      window.location.href = "/PortefolioWeb/";
-    </script>
     <title>Redirecting...</title>
+    <script>
+      // Redirige toute URL non trouvée vers index.html,
+      // en préservant le chemin pour React Router
+      const redirectTo = "/PortefolioWeb/";
+      const pathname = window.location.pathname;
+      const search = window.location.search;
+      const hash = window.location.hash;
+      window.location.replace(redirectTo + "#" + pathname + search + hash);
+    </script>
   </head>
-  <body></body>
+  <body>
+    <h1>Redirecting...</h1>
+  </body>
 </html>

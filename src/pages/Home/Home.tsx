@@ -2,6 +2,9 @@
 import styles from "./Home.module.css";
 import SectionButton from "../../components/SectionButton/SectionButton";
 import photo from "../../assets/img/temp_profil_3.png"
+import pro from "../../assets/img/logos/logo_pro.jpg"
+import groupe from "../../assets/img/logos/logo_groupe_wcs.png"
+import solo from "../../assets/img/logos/logo_solo_sandales.png"
 
 function HomePage() {
     return (
@@ -34,19 +37,19 @@ function HomePage() {
                 <h2>Projets</h2>
             <div className={styles.projectsContainer}>
                 <SectionButton
-                    image="src/assets/img/logos/logo_pro.jpg"
+                    image={pro}
                     name="Professionnel"
                     to="portfolio/pro"
                     alt="vers la section projet professionnel"
                 />
                 <SectionButton
-                    image="src/assets/img/logos/logo_groupe_wcs.png"
+                    image={groupe}
                     name="En groupe"
                     to="portfolio/groupe"
                     alt="vers la section projet en groupe"
                 />
                 <SectionButton
-                    image="src/assets/img/logos/logo_solo_sandales.png"
+                    image={solo}
                     name="En solo"
                     to="portfolio/solo"
                     alt="vers la section projet en solo"
