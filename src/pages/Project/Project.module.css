@@ -23,6 +23,12 @@
     width: min(100%, 360px);
     object-fit: contain;
     background-color: var(--background-color);
+
+}
+
+.projectImage:hover{
+    border:10px solid var(--secondary-bg-color)
+
 }
 
 h3 {
