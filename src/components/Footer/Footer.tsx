@@ -14,7 +14,7 @@ function Footer() {
                 </div>
                 <div className={styles.rightblock}>
                     <div className={styles.picto} ><a href="https://www.linkedin.com/in/laurent-durup-85598035/" target="_blank" rel="noopener noreferrer"><img src={linkedInIcon} alt="Picto linkedin" className={styles.pictoLink} /></a>
-                    <a href="https://www.github.com/LaurentKatsesSandalman" target="_blank" rel="noopener noreferrer"><img src={githubIcon} alt="Picto linkedin" className={styles.pictoLink}/></a>
+                    <a href="https://www.github.com/LaurentKatsesSandalman" target="_blank" rel="noopener noreferrer"><img src={githubIcon} alt="Picto GitHub" className={styles.pictoLink}/></a>
                     </div>
                     <div className={styles.mailTel}>
                     <p  className={styles.pRight}>(+33) 6 76 43 48 08</p>
