@@ -1,4 +1,4 @@
-import Sandals from "../../assets/icons/sandale_icon.ico"
+import Sandals from "../../assets/icons/sandale_icon.png"
 import styles from "./NavBar.module.css"
 import { Link } from "react-router-dom";
 

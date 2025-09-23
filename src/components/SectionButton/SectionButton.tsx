@@ -5,14 +5,14 @@ interface SectionButtonProps {
     image: string;
     name: string;
     to: string;
-    alt: string
+    ariaLabel: string
 }
 
-function SectionButton({image, name, to, alt}:SectionButtonProps){
+function SectionButton({image, name, to, ariaLabel}:SectionButtonProps){
 
     return(
-        <Link to={to} className={styles.sectionLink} state={{ from: "/" }}>
-        <img className={styles.sectionImage} src={image} alt={alt}/>
+        <Link to={to} className={styles.sectionLink} state={{ from: "/" }} aria-label={ariaLabel}>
+        <img className={styles.sectionImage} src={image} alt=""/>
         <p className={styles.sectionName}>{name}</p>
         </Link>
     )

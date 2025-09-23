@@ -17,7 +17,7 @@ export const portfolio = [
                 name: "Votre projet",
                 toParam: "yourproject",
                 img: projectYou,
-                alt: "We need you picture",
+                alt: "Image We need You",
                 link: "https://github.com/LaurentKatsesSandalman",
                 technos:
                     "HTML, CSS, JavaScript, TypeScript, ReactJS, ExpressJS, MySQL, NestJS (et plein d'autres d'ici là)",

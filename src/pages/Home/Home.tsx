@@ -40,19 +40,19 @@ function HomePage() {
                     image={pro}
                     name="Professionnel"
                     to="portfolio/pro"
-                    alt="vers la section projet professionnel"
+                    ariaLabel="vers la section projet professionnel"
                 />
                 <SectionButton
                     image={groupe}
                     name="En groupe"
                     to="portfolio/groupe"
-                    alt="vers la section projet en groupe"
+                    ariaLabel="vers la section projet en groupe"
                 />
                 <SectionButton
                     image={solo}
                     name="En solo"
                     to="portfolio/solo"
-                    alt="vers la section projet en solo"
+                    ariaLabel="vers la section projet en solo"
                 />
             </div>
         </>
