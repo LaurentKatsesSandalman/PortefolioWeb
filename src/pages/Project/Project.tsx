@@ -29,7 +29,7 @@ function ProjectPage() {
             <Link to={initialPage} className={styles.arrow}>
                 <img
                     className={styles.arrowimg}
-                    alt="Arrow back pictogram"
+                    alt="Picto flèche retour"
                     src={arrowIcon}
                 />
                 {section}
