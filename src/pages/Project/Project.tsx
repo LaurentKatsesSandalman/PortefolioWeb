@@ -47,17 +47,18 @@ function ProjectPage() {
                                 />
                             </div>
                         ) : (
-                            <a
+                           <div className={styles.link}> <a
                                 href={currentProject.link}
                                 target="_blank"
                                 rel="noopener noreferrer"
+                                
                             >
                                 <img
                                     className={styles.projectImage}
                                     src={currentProject.img}
                                     alt={currentProject.alt}
                                 />
-                            </a>
+                            </a></div>
                         )}
                     </div>
                     <div className={styles.texteBlock}>

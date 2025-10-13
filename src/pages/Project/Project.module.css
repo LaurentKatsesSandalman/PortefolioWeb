@@ -26,9 +26,25 @@
 
 }
 
-.projectImage:hover{
-    border:10px solid var(--secondary-bg-color)
+.link {
+  position: relative;
+}
 
+.link::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(255, 255, 255, 0.35);
+  opacity: 0;
+  pointer-events: none;
+  z-index: 2;
+}
+
+.link:hover::after {
+  opacity: 1;
 }
 
 h3 {
