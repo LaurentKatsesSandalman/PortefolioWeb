@@ -2,7 +2,7 @@ Le portfolio de Laurent Durup aka Sandalman
 
 Réalisé en React
 
-Hébergé sur GitHub pages
+[Hébergé sur GitHub pages](https://laurentkatsessandalman.github.io/PortefolioWeb/)
 
 ___
 <p align="left">
