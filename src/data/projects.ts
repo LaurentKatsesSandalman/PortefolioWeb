@@ -1,4 +1,3 @@
-import projectYou from "../assets/img/projects/project_you.png";
 import projectMemory from "../assets/img/projects/project_memory_complete.png";
 import projectDipiri from "../assets/img/projects/project_dipiri_complete.png";
 import projectQuicky from "../assets/img/projects/project_quicky.png";
@@ -6,25 +5,28 @@ import projectFlash from "../assets/img/projects/project_flash.png";
 import projectSolorush1 from "../assets/img/projects/project_solorush1.png";
 import projectMdb from "../assets/img/projects/project_mdb_complete.png";
 import projectPortfolio from "../assets/img/projects/project_portfolio.jpg";
+import jeannedarc from "../assets/img/projects/jeannedarc.png"
 
 export const portfolio = [
     {
         section: "Professionnel",
         toParam: "pro",
-        desc: "Voici la section professionnelle qui est pour l'instant vide. Je n'ai pas encore de projet professionnel dans mon portfolio, mais je suis en recherche active de stage. Contactez-moi et travaillons ensemble ! (enfin, surtout moi pour vous...)",
+        desc: "Voici les projets que j'ai réalisé dans le cadre professionnel",
         projects: [
             {
-                name: "Votre projet",
-                toParam: "yourproject",
-                img: projectYou,
-                alt: "Image We need You",
-                link: "https://github.com/LaurentKatsesSandalman",
+                name: "Ecole Jeanne d'Arc",
+                toParam: "jeannedarc",
+                img: jeannedarc,
+                alt: "Fronton de l'école Jeanne d'Arc",
+                link: "https://jeannedarc33.fr/",
                 technos:
-                    "HTML, CSS, JavaScript, TypeScript, ReactJS, ExpressJS, MySQL, NestJS (et plein d'autres d'ici là)",
-                duration: "3 mois à partir de début décembre 2025",
+                    "HTML, CSS, JavaScript, TypeScript, ReactJS, NextJS 16 (App Router, Server Components), PostgreSQL",
+                duration: "3 mois (décembre 2025 -février 2026)",
                 desc: [
-                    "Je n'ai pas encore de projet professionnel dans mon portfolio, mais je suis en recherche active de stage.",
-                    "Contactez-moi !",
+                    "Refonte complète du site WordPress en Next.js en totale autonomie (architecture, développement, déploiement)",
+"Conception et implémentation d'un système d'édition en contexte : modification du contenu directement sur les pages concernées sans back-office complexe, pour une expérience d'administration intuitive",
+"Architecture fullstack complète sous contrainte budget zéro : base de données (PostgreSQL), authentification, hébergement, gestion de médias",
+"Respect des normes (RGPD, accessibilité, SEO) et amélioration des performances web",
                 ],
             },
         ],
