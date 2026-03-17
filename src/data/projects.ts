@@ -1,7 +1,7 @@
 import projectMemory from "../assets/img/projects/project_memory_complete.png";
 import projectDipiri from "../assets/img/projects/project_dipiri_complete.png";
 import projectQuicky from "../assets/img/projects/project_quicky.png";
-import projectFlash from "../assets/img/projects/project_flash.png";
+import projectFlash from "../assets/img/projects/project_flash.jpg";
 import projectSolorush1 from "../assets/img/projects/project_solorush1.png";
 import projectMdb from "../assets/img/projects/project_mdb_complete.png";
 import projectPortfolio from "../assets/img/projects/project_portfolio.jpg";
@@ -18,7 +18,7 @@ export const portfolio = [
                 toParam: "jeannedarc",
                 img: jeannedarc,
                 alt: "Fronton de l'école Jeanne d'Arc",
-                link: "https://jeannedarc33.fr/",
+                link: "https://github.com/LaurentKatsesSandalman/jeanne_darc",
                 technos:
                     "HTML, CSS, JavaScript, TypeScript, ReactJS, NextJS 16 (App Router, Server Components), PostgreSQL",
                 duration: "3 mois (décembre 2025 -février 2026)",
@@ -84,7 +84,7 @@ export const portfolio = [
                     "Quicky était notre troisième projet, réalisé à trois (le quatrième a été absent la majeure partie du temps).",
                     
                     "Il s'agit d'un site de création de formulaire avec Client, Serveur, et Base de Données.",
-                    "Malheureusement, à ce stade de la formation, nous n'avons pas encore appris à mettre en ligne un site qui comporte un Back, le site ne tourne qu'en local.",
+                    "Malheureusement, à ce stade de la formation, nous n'avions pas encore appris à mettre en ligne un site qui comporte un Back, et le site ne tourne qu'en local.",
                     "A part ça, le site est fonctionnel et permet de créer des questionnaires avec un nombre variable de champs, chaque champ pouvant avoir son propre type parmi les plus courants: texte, QCM, nombre, email, date, ...",
                     "Le formulaire peut ensuite être partagé, les réponses sont enregistrées et aggrégées dans une Tab spécifique de résultats.",
                     "Sur ce projet j'ai un peu touché à tout, mais ce dont je suis le plus fier, c'est le Service FullForm.",
@@ -99,15 +99,15 @@ export const portfolio = [
                 toParam: "flash",
                 img: projectFlash,
                 alt: "image du site MémoFlip",
-                link: "https://github.com/WildCodeSchool/projet_4_cda_flash_card",
+                link: "https://remote-9.wilders.dev/",
                 technos:
                     "HTML, CSS, JavaScript, TypeScript, ReactJS, NestJS, MySQL, MicroORM",
                 duration: "Une quarantaine de jours, de début août à fin novembre 2025",
                 desc: [
-                    "C'est notre quatrième projet en groupe et le plus gros. Toute la promo est impliquée.",
+                    "C'est notre quatrième projet en groupe et le plus gros. Toute la promo était impliquée.",
                     "Il s'agit d'un site de réalisation de \"Flash-Cards\" ou cartes de révision, avec possibilité de chercher parmi les \"Decks\" de la communauté.",
-                    "Le projet s'appuie sur un Back en micro-services, principalement pour valider notre examen.",
-                    "Le projet n'en est qu'à ses débuts, avec une grosse phase de pré-prod et de setup du Back (et une coupure de plusieurs semaines en août pour cause de vacances)"
+                    "Le projet s'appuie sur un Back NestJS en micro-services avec un Front en React.",
+                    "Sur ce projet, je me suis occupé principalement du micro-service Deck côté Back, et de la page DeckDetails avec création/modification de cartes et de quiz côté Front."
                 ],
             },
         ],
@@ -136,7 +136,7 @@ export const portfolio = [
                 toParam: "solorush2",
                 img: projectMdb,
                 alt: "image du site RETRO MdB",
-                link: "https://youtu.be/aJmlgdP5Lq4",
+                link: "https://laurentkatsessandalman.github.io/soloRush2_MdB_Hard/",
                 technos:
                     "HTML, CSS, JavaScript, TypeScript, ReactJS, ExpressJS, MySQL",
                 duration: "Deux jours, mi juin 2025",
@@ -145,7 +145,8 @@ export const portfolio = [
                     "J’ai décidé de faire un retro game de type Livre-dont-vous-êtes-le-héros.",
                     "Le jeu gère via la BDD un système d'évènement mais aussi un inventaire qui conditionnent l'apparition ou non de certains \"boutons\" parmi les solutions.",
                     "La BDD permet aussi de gérer les combattants et l'impact des évènements sur les points de vie ou de communisme.",
-                    "Pour aller vite, j'ai fait un Front en React et en back j’ai utilisé Express, qui est typiquement fait pour ce genre de situation : développer rapidement un back solide pour une petite appli structurée en Model-View-Controller."
+                    "Pour aller vite, j'ai fait un Front en React et en back j’ai utilisé Express, qui est typiquement fait pour ce genre de situation : développer rapidement un back solide pour une petite appli structurée en Model-View-Controller.",
+					"Plus tard, j'ai refactoré le jeu pour pouvoir le mettre en ligne plus facilement (mais il s'agit du même jeu)"
                 ],
             },
             {
@@ -155,13 +156,12 @@ export const portfolio = [
                 alt: "image de la home du site où vous vous trouvez",
                 link: "",
                 technos:
-                    "HTML, CSS, JavaScript, ReactJS",
+                    "HTML, CSS, JavaScript, TypeScript, ReactJS",
                 duration: "En constante évolution",
                 desc: [
-                    "Contrairement à ce que je pensais (Qu'on est bête quand on est jeune !), il n'est pas possible de trouver un stage semble-t-il sans un portfolio.",
+                    "Contrairement à ce que je pensais (Qu'on est bête quand on est jeune !), il n'était pas possible de trouver un stage semble-t-il sans un portfolio.",
                     "J'ai donc essayé, à côté de la formation, du Projet P4 (MémoFlash), de la recherche de stage, du dossier professionnel requis par l'Etat, ... de réaliser ce site, avec la contrainte que ce soit rapide mais pas trop amateur.",
-                    "J'espère avoir réussi, et qu'il s'enrichira bientôt des projets qu'on voudra bien me confier.",
-                    "Le site est officiellement en TypeScript, mais il n'y a pas eu beaucoup de travail d'Interfaces ou de Types spécifiques, il faut l'avouer.",
+                    "J'espère avoir réussi, et qu'il s'enrichira bientôt des nouveaux projets que vous voudrez bien me confier.",
                 ],
             },
         ],

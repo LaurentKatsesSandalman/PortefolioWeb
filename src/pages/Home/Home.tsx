@@ -26,7 +26,7 @@ function HomePage() {
                         vidéo et de l’animation interactive, dont 10+ comme Game
                         Designer Free-To-Play Mobile, me voici à présent “jeune”
                         Développeur Web.</p>
-                        <p className={styles.pblock}> En recherche de stage, d’emploi, du
+                        <p className={styles.pblock}> En recherche de d’emploi, de projets, du
                         Graal, du Sens de la Vie, et d’une nouvelle paire de
                         sandales en cuir taille 42, je vous présente ici mes
                         premiers projets.
